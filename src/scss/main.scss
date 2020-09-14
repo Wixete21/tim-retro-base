@@ -1,34 +1,43 @@
+/*---------------------- Settings ----------------------*/
+
+/* font-family: 'Cardo', serif; */
+/* font-family: 'Bungee Shade', cursive; */
+
+/* LES VARIABLES CSS ICI */
+@import "settings/font";
+@import "settings/couleur";
+@import "settings/marge";
+/*---------------------- Generic ----------------------*/
+
+/* Mettre la ligne universelle pour le box-sizing */
+@import "normalize";
+@import "generic/reset";
+
+/* Enlever la marge sur les h1 et h2 */
+@import "generic/margeh";
+
+/*---------------------- Elements ----------------------*/
+@import "elements/body";
+@import "elements/coryright";
+
+/* ------------ Styler les h1  ------------ */
+@import "elements/h";
+@import "elements/hero";
+
+/*---------------------- Components ----------------------*/
+@import "components/conteneur";
+@import "components/header";
+@import "components/interet";
+@import "components/carte";
+@import "components/citation";
+@import "components/footer";
 
 
 
-// TOOLS
-// mixins et fonctions utilisés globalement dans le SCSS (Sass)
-
-
-
-// SETTINGS
-// Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
 
 
 
 
-// GENERIC
-// Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 
 
 
-
-// ELEMENTS
-// Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
-
-
-
-// COMPONENTS
-// Composants d'interface utilisateur spécifiques.
-// C’est là que la majorité de notre travail a lieu.
-
-
-
-
-// UTILITIES
-// Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
