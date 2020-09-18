@@ -1,7 +1,11 @@
-body .header-principal {
+.header-principal {
+  position: fixed;
+  right: 0;
+  left:0;
+  height: 76px;
   z-index: 3;
-  position: -webkit-sticky;
-  position: sticky;
-  top:0;
   background: var(--couleur-noir);
+}
+.header-principal h1 {
+  padding-top: 15px;
 }
